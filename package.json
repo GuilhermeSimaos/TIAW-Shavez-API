@@ -1,8 +1,27 @@
 {
-  "dependencies": {
-    "sweetalert2": "^11.7.12"
-  },
+  "name": "tiaw-shavez-api",
+  "version": "1.0.0",
+  "description": "API for shavez",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeSimaos/TIAW-Shavez-API.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Guilherme Simao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeSimaos/TIAW-Shavez-API/issues"
+  },
+  "homepage": "https://github.com/GuilhermeSimaos/TIAW-Shavez-API#readme",
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "sweetalert2": "^11.7.12"
   }
 }
